@@ -12,6 +12,11 @@
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 export COMMANDLINE_ARGS="--xformers"
 
+#https://medium.com/@j.night/fix-your-rtx-4090s-poor-performance-in-stable-diffusion-with-new-pytorch-2-0-and-cuda-11-8-d5cb689be841
+#export COMMANDLINE_ARGS="--opt-sdp-attention"
+#export COMMANDLINE_ARGS="--opt-channelslast --opt-sub-quad-attention --opt-sdp-no-mem-attention"
+
+
 # python3 executable
 #python_cmd="python3"
 

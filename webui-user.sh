@@ -11,6 +11,7 @@
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 export COMMANDLINE_ARGS="--xformers"
+#export COMMANDLINE_ARGS="--xformers --disable-safe-unpickle"
 
 # python3 executable
 #python_cmd="python3"
